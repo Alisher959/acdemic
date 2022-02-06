@@ -20,25 +20,25 @@ async def main_start(message: types.Message):
 
 @dp.message_handler(text = "Ishdan bo`shash")
 async def kurs_answer(message: Message):
-    photo_file = InputFile(path_or_bytesio="documents/Ishdan_bo`shash_arizasi.docx")
+    photo_file = "BQACAgIAAxkBAAIDHmH_V_QaRdkuTnumfgNsK7-emqUbAAL4EwAC1voBSA_E3MTqWaQNIwQ"
     await message.answer_document(photo_file, caption="Ishdan_bo`shash_arizasi", reply_markup=orqaga)
 
 
 @dp.message_handler(text = "🧑‍🏫 O`qituvchilar uchun 🧑‍🏫")
 async def kurs_answer(message: Message):
-    photo_file = InputFile(path_or_bytesio="documents/O`qituvchilar_shartnomasi.docx")
+    photo_file = "BQACAgIAAxkBAAIDIGH_WBgvpViqUQxa2MUb5xlhTtx7AAL5EwAC1voBSMD9DObP4Ol6IwQ"
     await message.answer_document(photo_file, caption="O`qituvchilar_shartnomasi", reply_markup=orqaga)
 
 
 @dp.message_handler(text = "🧒 Bolalar uchun 👧")
 async def kurs_answer(message: Message):
-    photo_file = InputFile(path_or_bytesio="documents/Bolalar_uchun_narxlar.docx")
+    photo_file = "BQACAgIAAxkBAAIDImH_WCDRPqkqDirAZ7jbWUA6FaScAAL6EwAC1voBSHZYdXR-d8OPIwQ"
     await message.answer_document(photo_file, caption="Bolalar_uchun_narxlar", reply_markup=orqaga)
 
 
 @dp.message_handler(text = "👨‍👨‍👧 Ota-onalar uchun 👨‍👩‍👦‍👦")
 async def kurs_answer(message: Message):
-    photo_file = InputFile(path_or_bytesio="documents/Ota-onalar_uchun.docx")
+    photo_file = "BQACAgIAAxkBAAIDJGH_WCmy4diXhjgliKs8dAt0RtRlAAL7EwAC1voBSCRYh3M8pLYmIwQ"
     await message.answer_document(photo_file, caption="Ota-onalar_uchun", reply_markup=orqaga)
 
 
