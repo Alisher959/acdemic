@@ -10,7 +10,7 @@ env.read_env()
 # IP = env.str("ip")  # Xosting ip manzili
 # CHANNELS = ['-1001687453165', '-1001601741172']
 
-# import os
+import os
 
 
 BOT_TOKEN = str(os.environ.get("BOT_TOKEN"))
